@@ -1,7 +1,9 @@
+coverage
+example
 lib
+node_modules
 test
-yarn.lock
 tsconfig.json
 tsconfig.build.json
+yarn.lock
 .DS_Store
-node_modules

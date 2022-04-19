@@ -12,21 +12,51 @@
     "fluent-ffmpeg",
     "convert"
   ],
-  "files": [ 
-    "dist" 
+  "files": [
+    "dist"
   ],
   "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json"
   },
   "devDependencies": {
+    "@nestjs/platform-express": "^8.4.4",
+    "@nestjs/testing": "^8.4.4",
     "@types/fluent-ffmpeg": "^2.1.20",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
     "typescript": "^4.6.3"
   },
   "peerDependencies": {
     "fluent-ffmpeg": "^2.1.2"
   },
   "dependencies": {
-    "@nestjs/common": "^8.4.4"
+    "@nestjs/common": "^8.4.4",
+    "@nestjs/core": "^8.4.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.5"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": ".",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "./coverage",
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/lib/",
+      "<rootDir>/test/"
+    ]
   }
 }
