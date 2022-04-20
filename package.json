@@ -20,8 +20,7 @@
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "test": "jest",
     "prerelease": "yarn build",
-    "prepublish": "yarn build",
-    "publish": "npm publish --access public"
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@nestjs/platform-express": "^8.4.4",
