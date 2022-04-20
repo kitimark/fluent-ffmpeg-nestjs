@@ -3,6 +3,8 @@
   "version": "0.0.4",
   "description": "fluent-ffmpeg nestjs wrapper",
   "author": "Wasutan Kitijerapat",
+  "repository": "https://github.com/mrkwskiti/fluent-ffmpeg-nestjs.git",
+  "license": "MIT",
   "main": "dist/index.js",
   "keywords": [
     "nest",
@@ -15,7 +17,6 @@
   "files": [
     "dist"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "test": "jest",
