@@ -18,7 +18,10 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
-    "test": "jest"
+    "test": "jest",
+    "prerelease": "yarn build",
+    "prepublish": "yarn build",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@nestjs/platform-express": "^8.4.4",
