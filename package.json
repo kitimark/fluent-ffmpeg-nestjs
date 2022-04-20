@@ -1,6 +1,6 @@
 {
   "name": "@mrkwskiti/fluent-ffmpeg-nestjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "fluent-ffmpeg nestjs wrapper",
   "author": "Wasutan Kitijerapat",
   "main": "dist/index.js",
