@@ -8,7 +8,7 @@ yarn add --dev @types/fluent-ffmpeg
 ```
 
 ## Documentation
-- [Fluent-Ffmpeg](github.com/fluent-ffmpeg/node-fluent-ffmpeg#readme)
+- [Fluent-Ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg#readme)
 
 ## Examples
 
