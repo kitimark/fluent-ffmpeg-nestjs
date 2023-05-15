@@ -19,7 +19,7 @@ import { FluentFfmpegModule } from '@mrkwskiti/fluent-ffmpeg-nestjs'
 import { AppController } from './app.controller';
 
 @Module({
-  imports: [FluentFfmpegMedule.forRoot()],
+  imports: [FluentFfmpegModule.forRoot()],
   controllers: [AppController],
 })
 export class AppModule {}
